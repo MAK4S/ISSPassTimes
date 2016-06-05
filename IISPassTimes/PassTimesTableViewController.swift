@@ -38,8 +38,7 @@ class PassTimesTableViewController: UITableViewController, CLLocationManagerDele
             
             if (NSProcessInfo.processInfo().environment["SIMULATOR_DEVICE_NAME"] != nil){
                 
-                self.utils.showSimpleAlertView(self, title: "Using simulator", message: "The application will not work on simulator because it needs to access to location services.")
-                
+                self.utils.showSimpleAlertView(self, title: "Using simulator", message: "The application will not work on simulator because it needs to access location services.")
             }
             else{
                 
