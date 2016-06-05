@@ -10,7 +10,7 @@ La aplicación servirá para ayudar a los usuarios a ver la [ISS (Estación Espa
 
 * Para la anécdota sobre el valor de la duración, se utiliza [Numbers API] (http://numbersapi.com/).
 
-
+</br>
 Por [Mario Corte] (https://es.linkedin.com/in/mario-corte-gonzález-52b272105)
  
 --
