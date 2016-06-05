@@ -1,9 +1,9 @@
 # Swift ISS PassTimes
 International Space Station Pass Times
-+
-+Enunciado
-+==================================
-+La aplicación servirá para ayudar a los usuarios a ver la [ISS (Estación Espacial Internacional)](https://es.wikipedia.org/wiki/Estaci%C3%B3n_Espacial_Internacional), informándoles de cuándo realizará un sobrevuelo por encima de su posición.
+#
+#Enunciado
+#==================================
+#La aplicación servirá para ayudar a los usuarios a ver la [ISS (Estación Espacial Internacional)](https://es.wikipedia.org/wiki/Estaci%C3%B3n_Espacial_Internacional), informándoles de cuándo realizará un sobrevuelo por encima de su posición.
 +
 +Consiste en dos pantallas. La primera muestra la ubicación del dispositivo y un listado con las fechas de los próximos sobrevuelos de la ISS sobre esa localización. La segunda aparecerá al pulsar en una las celdas y mostrará información de ese sobrevuelo en detalle: el tiempo restante para el sobrevuelo, la duración del mismo y una anécdota sobre el valor de la duración.
 +
