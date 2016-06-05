@@ -38,7 +38,7 @@ class PassTimesTableViewController: UITableViewController, CLLocationManagerDele
             
             if (NSProcessInfo.processInfo().environment["SIMULATOR_DEVICE_NAME"] != nil){
                 
-                utils.showSimpleAlertView(self, title: "Using simulator", message: "The application will not work on simulator because it needs to access location services.")
+                self.utils.showSimpleAlertView(self, title: "Using simulator", message: "The application will not work on simulator because it needs to access location services.")
             }
             else{
                 
@@ -58,7 +58,7 @@ class PassTimesTableViewController: UITableViewController, CLLocationManagerDele
                     
                 case .Restricted, .Denied:
                     
-                    utils.showSettingsAlertView(self, title: "Location Not Authorized", message: "In order to search I.S.S. Pass Times near you, please open this app's settings and set location access to 'When in use'.")
+                    self.utils.showSettingsAlertView(self, title: "Location Not Authorized", message: "In order to search I.S.S. Pass Times near you, please open this app's settings and set location access to 'When in use'.")
                     
                     break;
                     
@@ -104,7 +104,7 @@ class PassTimesTableViewController: UITableViewController, CLLocationManagerDele
                         
                     }else{
                     
-                        utils.showSimpleAlertView(self, title: "Error", message: "It was an error while get the current location. Location is necesary, Otherwise you can not use the application.")
+                        self.utils.showSimpleAlertView(self, title: "Error", message: "It was an error while get the current location. Location is necesary, Otherwise you can not use the application.")
                     }
                     
                     break;
@@ -113,7 +113,7 @@ class PassTimesTableViewController: UITableViewController, CLLocationManagerDele
             
         }else{
             
-            utils.showSettingsAlertView(self, title: "You are offline", message: "Please check the internet connection. Otherwise you can not use the application.")
+            self.utils.showSettingsAlertView(self, title: "You are offline", message: "Please check the internet connection. Otherwise you can not use the application.")
         }
     }
     
